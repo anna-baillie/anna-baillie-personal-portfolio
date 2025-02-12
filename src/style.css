@@ -16,7 +16,6 @@ body {
   font-family: "Caprasimo", serif;
   color: #a46379;
   font-size: 20px;
-  justify-content: space-between;
   text-transform: lowercase;
 }
 
@@ -34,7 +33,7 @@ body {
   width: 80%;
   background-color: #a46379;
   height: auto;
-  margin: 60px auto 0px;
+  margin: 0 auto;
   display: block;
   padding: 0;
   box-shadow: var(--default-shadow);
