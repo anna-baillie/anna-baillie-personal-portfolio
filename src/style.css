@@ -6,7 +6,7 @@ body {
   background-color: #283028;
   font-family: "Poppins", sans-serif;
   color: #243127;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 400;
 }
 
@@ -97,6 +97,11 @@ h3 {
   padding: 50px;
 }
 
+.section-one p {
+  padding: 15px;
+  margin-top: 30px;
+}
+
 .profile-image {
   width: 90%;
   margin: 0 auto;
@@ -127,6 +132,10 @@ h3 {
   background-position: center;
   object-fit: cover;
   aspect-ratio: 1/1;
+  transition: 250ms ease-in-out;
+}
+
+.highlight-img:hover {
   box-shadow: var(--default-shadow);
 }
 
@@ -152,6 +161,11 @@ footer a:hover {
 }
 
 @media (max-width: 950px) {
+  .section-one p {
+    padding: 0px;
+    margin-top: 0px;
+  }
+
   .page-body {
     width: 100%;
   }
